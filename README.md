@@ -1,88 +1,100 @@
 # Hostel-Management-System
-Project objectives:
-This project deals with the problems on managing a hostel and avoids the problems which occur when carried manually. Identification of the drawbacks of the existing system leads to the designing of computerized system that will be compatible to the existing system with the system Which is more user friendly and more GUI oriented. We can improve the efficiency of the system, thus overcome the drawbacks of the existing system. Here, Student/User can login and view room details and book hostel easily. User can change their password anytime. Admin can add/manage rooms, courses, students and many more.
+## Project objectives:
+This project tackles the challenges of hostel management by eliminating the issues inherent in manual processes. By identifying the limitations of the current system, we've developed a cutting-edge, computerized solution that seamlessly integrates with existing operations. Our user-friendly interface and visually appealing design enhance efficiency and usability.
 
-Functions / Queries:
+## Key Features:
+
+* **Student/User Experience:** Students can easily log in to explore available rooms, book accommodations, and update their passwords at any time.
+* **Admin Capabilities:** Administrators have the power to effortlessly manage rooms, courses, student records, and more.
+  
+* By transforming the traditional approach, our hostel management system not only streamlines operations but also boosts overall productivity and user satisfaction.
+
+## Functions / Queries:
 1.	Login System.
 2.	View Room Details
 3.	Book Hostel
 4.	Student Registration
 5.	Student Management.
 6.	Employee Management.
-7.	Billing.
-8.	User Management.
-9.	Room Management.
-10.	Meal management.
-11.	Cost Management.
-12.	Notice Board.
-13.	Attendance.
+7.	User Management.
+8.	Room Management.
+9.	Notice Board.
+10.	Attendance.
 
-Functions / Queries Details:
+## Functions / Queries Details:
 
-1.Login System: Every user needs to login to use the systems. There are 2 systems one is sign up and one is log in into the web app. In login there are few options those are
-1.	Admin
-2.	Students
-3.	Employees.
+1. **Login System:**
+Users must log in to access the system. There are two options: sign-up and login. The system supports three user roles:
 
-2.View Room Details: Admin, student can view the room details . which room are empty and which room is book . How many student in a room. How many bed are there etc.
+* Admin
+* Students
+* Employees
+  
+2. **View Room Details:**
+Admins and students can view comprehensive room details, including:
 
-3.Book Hostel: In this function students can book the hostel easily. And they can also see the all information about choose hostel.
+    * Availability status
+    * Number of students in each room
+    * Number of beds per room
+      
+3. **Book Hostel:**
+Students can easily book a hostel room and access all relevant information about their chosen accommodation.
 
-4.Student registration: after booking the hostel students have to register their information to access the web app. They can view the room details and all the other facilities like who is their observer and when food will given.
+4. **Student Registration:**
+After booking a hostel, students must register their information to access the web app. They can then view room details and other facilities, such as the assigned observer and meal schedules.
 
-5.Students Management: Admin can access all the information about the students and he/she can manage the students. He can also see who is in the hostel and when he leaves the hostel.
+5. **Student Management:**
+Admins can access and manage all student information. They can monitor who is currently in the hostel and track departure times.
 
-6.Employee Management: Employee can also use the web app. Admin can also see who is working.  hostel authority can give employee in different works and also monitor he or she work.
+6.** Employee Management:**
+Employees can use the web app to access their tasks. Admins can assign tasks and monitor employee performance.
 
-7.Billing: In this function employee and students can see that how much he/ she have to pay and get paid. If there are any due it will show the details on that person.
+7. **User Management:**
+Admins can categorize users based on their roles and organize them into appropriate categories.
 
-8.User management: this function for admin. He categorizes the user based on their role. He can organize them as a category. 
+8. **Room Management:**
+Admins can assign rooms to students and allocate tasks to employees by room or floor.
 
-9.Room Management: Admin can assign the student which room they will stay on. Also he can assign the employee which employee work in which room or floor.
+9. **Notice Board:**
+Students and employees can view announcements and updates. Emergency alerts and issues that require attention will be displayed here.
 
-10.Meal Management: In hostel meal is important. In this function it will give a hint that which food will be cook on a day. When it will served. Who is cooking or working on the meal.
-
-11.Cost Management: This function gives the hostel owner and student how much cost do they need to spend. They have a proper details how much it will cost. It will also help them to understand how much they spent or saved.
-
-12.Notice Board: Students and employee can see what is happening . if their any emergency it will show in the notice board. If there will any problem need to solve it will show in the notice board.
-
-13.Attendance: Students and Employee have this functions. They need to give the attendance to the authority. In-charge can see when a student enter the hostel and when he is leaving. For employee same here. When they come to work and when they are leaving.
-
+10. **Attendance:**
+Both students and employees must record their attendance. In-charges can track when students enter and leave the hostel and monitor employee work hours.
 ----------------------------------------------------------
 
-Technical Specification:
+## Technical Specification:
 
-Front-End:
+**Front-End:**
 
-    1.html
+    1. html
 
-    2.css
+    2. css
 
-    3.javascript
+    3. javascript
 
-Back-End:
+**Back-End:**
 
-    1.php
+    1. php
 
-    2.mysql
+    2. mysql
     
 
-Software Requirement:
+**Software Requirement:**
 
 Any type of server software which will run php code.For example: XAMPP Server,WAMP Server,MAMP Server
-    
+     
 
 -----------------------------------------------------------
 
-Installation Process:
+## Installation Process:
 
-    1.Download or clone the project.
+    1. Download or clone the project.
     
-    2.Put this file inside "c:/xampp/htdocs/" .
+    2. Put this file inside "c:/xampp/htdocs/".
     
-    3.Database Configuration:
+    3. Database Configuration:
         * Open php my admin
-        * Create Database named "hostel_management".
+        * Create a Database named "hostel_management".
         * Import database 'hostel_management.sql' from folder name database
         
     4.Open Your browser put inside "http://localhost/Hostel-Management-System/"
@@ -90,13 +102,10 @@ Installation Process:
 
 -----------------------------------------------------------
 
-Login Id & Passwords:
+## Login Id & Passwords:
 
     ID:  Admin
     Pass: password
-
-    ID:  Supervisor
-    Pass: supervisor
 
     ID: Employee
     Pass: employee
@@ -106,6 +115,4 @@ Login Id & Passwords:
 
 ------------------------------------------------------------
 
-Developer Info: 
 
-This is an university project for my course. 
